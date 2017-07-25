@@ -1,0 +1,74 @@
+html{
+ 
+}
+
+.buttonnext{
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:rgba(0,0,0,.8);
+	font-size:.9em;
+	display:inline-block;
+	line-height:18px;
+	width:150px;
+	height:30px;
+	text-align:center;
+	margin:2px;
+	text-decoration: none;
+	padding:5px 10px;
+	cursor: pointer;    
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+	-webkit-transition: all .25s ease;
+	transition: all .25s ease;
+	-webkit-user-select: none;
+	 
+	 margin: 0 79.5%;
+	/* button style */
+	border-radius:3px;
+	 background-color:#4a77d4;
+	border: 1px solid transparent;
+	color:#FFF;
+}
+
+.buttonGroup-button.selected{
+	color: white;
+	background-color:#c73479;	
+}
+
+.buttonGroup-button, .buttonGroup-button.disabled:hover{
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:rgba(0,0,0,.8);
+	font-size:.9em;
+	display:inline-block;
+	line-height:18px;
+	width:150px;
+	height:30px;
+	text-align:center;
+	margin:2px;
+	text-decoration: none;
+	padding:5px 10px;
+	cursor: pointer;    
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+	-webkit-transition: all .25s ease;
+	transition: all .25s ease;
+	-webkit-user-select: none;
+	
+	/* button style */
+	border-radius:3px;
+	background-color:#ede7f2;
+	border: 1px solid transparent;
+	color:#48434c;
+}
+
+.buttonGroup-button.selected{
+	color: white;
+	background-color:#c73479;	
+}
+
+.buttonGroup-button.disabled{
+	background-color:transparent;
+	border:1px solid rgba(0,0,0,.1);
+	color:rgba(0,0,0,.2);
+}
